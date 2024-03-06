@@ -1,0 +1,1 @@
+module.exports.ENCRYPTION_GEN_ROUNDS = 10;

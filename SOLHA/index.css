@@ -1,0 +1,73 @@
+body{
+    margin-top: 5%;
+    background-color:white;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#container1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 385px ;
+    height: 354px;
+    justify-content: center;
+    border-radius: 10px;
+    background:rgb(254, 242, 242);
+}
+
+#container2 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 385px ;
+    height: 347px;
+    justify-content: center;
+    border-radius: 10px;
+    background:rgb(254, 242, 242);
+}
+
+#sign-up{
+text-align: center;
+margin-left:auto ;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 40px;
+height: 10px;
+font-weight: bolder;
+border-radius: 5px;
+}
+
+.input-tag{
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 62%;
+    height: 35px;
+    text-align: left;
+    text-indent: 10px;
+}
+
+#sign-up-btn,#login-btn{
+    margin: auto;
+    width: 62%;
+    height: 35px;
+    border-radius: 2px;
+    background: #0063ee;
+    color: rgb(248, 251, 250);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+#sign-up-btn:hover,#login-btn:hover{
+    background: #ffffff;
+    color: rgb(8, 0, 255);
+    border: #0063ee solid 2px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+#container1 div,#container2 div{
+    text-align: center;
+    margin-bottom: 10px; 
+}
